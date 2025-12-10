@@ -140,7 +140,21 @@ justify-content: space-between;
 }
 
 /* 도드람 소식 */
-#main .news .span{
-    width: 70px;
-    height: 70px;
+#main .news {
+    position: relative;
+
+}
+#main .news-title{
+    display: flex;
+    justify-content: space-between;
+}
+#main .news .title{
+    padding: 0;
+}
+#main .news-btn-wrap{
+    display: flex;
+    border: 1px solid #000;
+}
+#main .news-left h3{
+   
 }
