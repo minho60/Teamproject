@@ -4,22 +4,65 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="assets/css/reset.css">
     <style>
+      #card{
+        font-size: 1.4rem;
+      }
+      .card-img{
+        border: 1px solid #9b9696;
+        border-radius: 20px;
+        width: 303px;
+        height: 360px;
+        overflow: hidden;
+      }
+      .card-tit{
+        font-size: 1.8rem;
+        margin: 20px 0;
+      }
+
+      .card-price{
+        display: flex;
+        align-items: center;
+      }
+
+      .card-price span{
+        background: #E83828;
+        color:#fff;
+        border-radius: 7px;
+        padding: 3px 6px 3px 5px;
+      }
+
+      .card-price strong{
+        font-size: 2rem;
+        margin: 10px;
+      }
+      .card-price del{
+        color:#3F3F3F;
+      }
+
+      .weight{
+        margin-top: 10px;
+        color: #B7B7B7;
+      }
+    
       .info-box{
         display: flex;
         flex-direction: column;
-
       }
+
     </style>  
 
 </head>
 <body>
     <div id="card">
-        <div class="card-img"><img src="assets/img/1000000158_main_01.jpg" alt="카드"></div>
-        <div class="info-box">
-            <div><strong>도드람 본래 뼈 해장국 800g</strong></div>
-            <div><span>27%</span>price</div>
-            <div>(100g당 판매가:862원)</div>
+        <a href="#">
+          <div class="card-img"><img src="assets/img/1000000158_main_01.jpg" alt="카드"></div>
+          <div class="info-box">
+              <div class="card-tit"><strong>도드람 본래 뼈 해장국 800g</strong></div>
+              <div class="card-price"><span>14%</span><strong>73000원</strong><del>50000원</del></div>
+              <div class="weight">(100g당 판매가:862원)</div>
+        </a>
         </div>
     </div>
 </body>
