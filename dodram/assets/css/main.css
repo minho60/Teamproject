@@ -1,5 +1,51 @@
 @charset "UTF-8";
-/* 타이포그래피 */
+/* reset */
+
+/* reset 기본 */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 10px;
+}
+
+body {
+    font-family: "Pretendard Variable", Pretendard, -apple-system, BlinkMacSystemFont, system-ui, Roboto, "Helvetica Neue", "Segoe UI", "Apple SD Gothic Neo", "Noto Sans KR", "Malgun Gothic", sans-serif;
+    color: #000;
+    line-height: 1.4;
+}
+
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+    font-weight: normal;
+    font-size: inherit;
+    /* rem 기반 적용 */
+}
+
+ul,
+ol {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+ img {
+    width: 100%; 
+    height: 100%;
+    object-fit: cover;
+}
 
 
 #main {
@@ -54,6 +100,58 @@
     justify-content: space-between;
 }
 
+/*추천 상품 ui카드  */
+#card-ui {
+    display: flex;
+    gap: 10px;
+    font-size: 1.4rem;
+}
+
+#main .card-img {
+    border: 1px solid #9b9696;
+    border-radius: 20px;
+    width: 303px;
+    height: 360px;
+    overflow: hidden;
+}
+
+#main .card-tit {
+    font-size: 1.8rem;
+    margin: 20px 0;
+}
+
+#main .card-price {
+    display: flex;
+    align-items: center;
+}
+
+#main .card-price span {
+    background: #E83828;
+    color: #fff;
+    border-radius: 7px;
+    padding: 3px 6px 3px 5px;
+
+}
+
+#main .card-price strong {
+    font-size: 1.8rem;
+    margin: 5px;
+}
+
+#main .card-price del {
+    color: #3F3F3F;
+}
+
+#main .weight {
+    margin-top: 5px;
+    color: #B7B7B7;
+}
+
+#main .info-box {
+    display: flex;
+    flex-direction: column;
+}
+/* //카드ui */
 
 #main .reco-left ul {
     justify-content: flex-start;
@@ -164,6 +262,12 @@
     height: 478px;
 }
 
+/* 선물세트 ui카드 */
+#main #card-ui2{
+    display: flex;
+    gap: 10px;
+}
+
 /* 도드람 소식 */
 #main .news {
     position: relative;
@@ -190,6 +294,10 @@
     align-items: center;
     font-size: 2rem;
     margin: 20px;
+}
+#main .news-wrap h3 img {
+  width: 48px;
+  height: 48px;
 }
 
 #main .news-wrap {
