@@ -85,9 +85,15 @@
     justify-content: space-between;
 }
 
+.minho-wrapper .sale ul li:hover p{
+    font-weight: bold;
+}
+
 .minho-wrapper .sale p {
     font-size: 16px;
 }
+
+
 
 .minho-wrapper .sale img {
     width: 172px;
