@@ -182,7 +182,7 @@ const carde = [
 
 
 
-const card2 = [
+const giftcard1 = [
   {
     img: "assets/img/main/1000000158_main_01.jpg",
     title: "도드람한돈 으뜸구이세트2호",
@@ -206,5 +206,57 @@ const card2 = [
     price: "63,000원",
     del: " ",
     weight: "(100g당 판매가:3,150원)",
+  },
+];
+const giftcard2 = [
+  {
+    img: "assets/img/main/1000000486_main_031.jpg",
+    title: "도드람한우구이 세트 1호",
+    span: " ",
+    price: "200,000원",
+    del: " ",
+    weight: "(100g당 판매가:12,500원)",
+  },
+  {
+    img: "assets/img/main/1000001792_main_059.jpg",
+    title: "한우구이세트 2호",
+    span: " ",
+    price: "300,000원",
+    del: " ",
+    weight: "(100g당 판매가:13,043원)",
+  },
+  {
+    img: "assets/img/main/1000001792_main_059.jpg",
+    title: "한우구이세트 3호",
+    span: " ",
+    price: "250,000원",
+    del: " ",
+    weight: "(100g당 판매가:13,157원)",
+  },
+];
+const giftcard3 = [
+  {
+    img: "assets/img/main/1000000557_main_013.jpg",
+    title: "도드람 토종 순대국 530g",
+    span: "40% ",
+    price: "4,900원",
+    del: " 8,100원",
+    weight: "(100g당 판매가:924원)",
+  },
+  {
+    img: "assets/img/main/1000001807_main_034.jpg",
+    title: "도드람 수육가득 돼지국밥 500g",
+    span: "38%",
+    price: "3,900원",
+    del: "6,300원",
+    weight: " ",
+  },
+  {
+    img: "assets/img/main/1000000521_main_0100.jpg",
+    title: "도드람 본래 뼈해장국 800g",
+    span: "27% ",
+    price: "6,900원",
+    del: "9,400원 ",
+    weight: "(100g당 판매가:862원)",
   },
 ];
