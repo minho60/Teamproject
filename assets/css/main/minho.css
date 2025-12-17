@@ -170,16 +170,40 @@
     font-size: 16px;
     font-weight: 500;
     line-height: 24px;
-    border: 1px solid #000;
+    border: 1px solid #dfdfdf;
     border-radius: 50px;
     padding: 6px 18px 6px 6px;
     box-sizing: border-box;
     margin: 10px 0;
 }
+.minho-wrapper .reco-left li:hover{
+     transform: scale(1.1);
+     color:#fff;
+     font-size: 18px;
+     font-weight: bold;
+}
+
+
+.minho-wrapper .reco-left li:nth-of-type(1):hover{
+    background: #A68BFF;
+}
+.minho-wrapper .reco-left li:nth-of-type(2):hover{
+    background: #00CB70;
+}
+.minho-wrapper .reco-left li:nth-of-type(3):hover{
+    background: #FFDB59;
+}
+.minho-wrapper .reco-left li:nth-of-type(4):hover{
+    background: #FFA600;
+}
+.minho-wrapper .reco-left li:nth-of-type(5):hover{
+    background: #0054FF;
+}
 
 .minho-wrapper .reco-left li img {
     width: 42px;
     height: 42px;
+    margin-right: 10px;
 }
 
 .minho-wrapper .ui-card {
