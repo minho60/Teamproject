@@ -1,11 +1,21 @@
 @charset "UTF-8";
-
-.location-wrap{
-    position: relative;
-
-    
+/* reset */
+body{
+    margin: 0;
 }
-.location-con{
+a{
+    text-decoration: none;
+    color: #000;
+}
+ul,li{
+    list-style: none;
+}
+
+#minho-faq .location-wrap{
+    position: relative;    
+}
+
+#minho-faq .location-con{
     width: 1260px;
     height: 38px;
     margin: 0 323px;    
