@@ -273,8 +273,7 @@
     height: 36px;
 }
 .minho-wrapper .gift li:hover{
-    border: 1px solid #E83828;
-
+    border: 2px solid #E83828;
 }
 
 .minho-wrapper .gift-ico {
