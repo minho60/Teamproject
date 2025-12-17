@@ -2,7 +2,7 @@
  * @author 김민호
  */
 
-const tabs = document.querySelectorAll(".reco-left ul li");
+{const tabs = document.querySelectorAll(".reco-left ul li");
 
 // 각 탭에 대응하는 배열
 const tabArrays = [
@@ -15,7 +15,7 @@ const tabArrays = [
 
 // 카드 렌더링 함수
 function renderCard(array) {
-    const container = document.getElementById("recommend-card");
+    const container = document.getElementById("recomend-card");
     container.innerHTML = ""; // 기존 카드 초기화
 
     array.forEach((data) => {
@@ -60,3 +60,4 @@ tabs.forEach((tab, index) => {
 
     });
 });
+}

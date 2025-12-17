@@ -107,7 +107,7 @@
 }
 
 /*추천 상품 ui카드  */
-#recommend-card {
+#recomend-card {
     display: flex;
     gap: 10px;
     font-size: 14px;
