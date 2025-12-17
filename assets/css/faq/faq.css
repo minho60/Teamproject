@@ -10,13 +10,16 @@ a{
 ul,li{
     list-style: none;
 }
+#minho-faq{
+    width: 1260px;
+    margin: 0 323px;  
+}
 
 #minho-faq .location-wrap{
     position: relative;    
 }
 
 #minho-faq .location-con{
-    width: 1260px;
     height: 38px;
-    margin: 0 323px;    
+      
 }
