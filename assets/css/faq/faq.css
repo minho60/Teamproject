@@ -1,0 +1,22 @@
+@charset "UTF-8";
+/* reset */
+body{
+    margin: 0;
+}
+a{
+    text-decoration: none;
+    color: #000;
+}
+ul,li{
+    list-style: none;
+}
+
+#minho-faq .location-wrap{
+    position: relative;    
+}
+
+#minho-faq .location-con{
+    width: 1260px;
+    height: 38px;
+    margin: 0 323px;    
+}

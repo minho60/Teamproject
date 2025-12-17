@@ -107,7 +107,7 @@
 }
 
 /*추천 상품 ui카드  */
-#card-ui {
+#recomend-card {
     display: flex;
     gap: 10px;
     font-size: 14px;
@@ -157,7 +157,7 @@
     display: flex;
     flex-direction: column;
 }
-/* //카드ui */
+
 
 .minho-wrapper .reco-left ul {
     justify-content: flex-start;
@@ -217,6 +217,11 @@
     gap: 20px;
     margin: 100px 0;
 }
+/* 선물세트 카드 */
+#gift-card{
+    display: flex;
+    gap: 10px;
+}
 
 .minho-wrapper .gift-wrap {
     display: flex;
@@ -235,13 +240,17 @@
 }
 
 .minho-wrapper .gift li {
-    border: 1px solid #000;
+    border: 1px solid #dddddd;
     border-radius: 40px;
     display: flex;
     align-items: center;
     justify-content: center;
     padding: 6px 18px 6px 6px;
     height: 36px;
+}
+.minho-wrapper .gift li:hover{
+    border: 1px solid #E83828;
+
 }
 
 .minho-wrapper .gift-ico {
@@ -311,8 +320,8 @@
 }
 
 .minho-wrapper .news-left,
-.minho-wrapper .news-left .news-right {
-    border: 1px solid #000;
+.news-right {
+    border: 1px solid #B7B7B7;
     padding: 30px;
     background: #fff;
     border-radius: 20px;
