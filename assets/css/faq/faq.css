@@ -1,0 +1,12 @@
+@charset "UTF-8";
+
+.location-wrap{
+    position: relative;
+
+    
+}
+.location-con{
+    width: 1260px;
+    height: 38px;
+    margin: 0 323px;    
+}

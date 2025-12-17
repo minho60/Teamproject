@@ -4,16 +4,16 @@ document.addEventListener("DOMContentLoaded", () => {
             <div id="header">
                 <div class="inner">
                     <!-- logo -->
-                    <h1 class="logo"><a href="index.html"><img src="assets/img/layout/0c3d6c35bd0388d73a8ca987211f0061_31100.svg"
+                    <h1 class="logo"><a href="/index.html"><img src="/assets/img/layout/0c3d6c35bd0388d73a8ca987211f0061_31100.svg"
                                 alt="도드람로고"></a></h1>
                     <!-- top link -->
                     <div class="top_link">
                         <a href="#">로그인</a>
                         <a href="#">회원가입</a>
                         <a href="#">고객센터</a>
-                        <a href=""><img src="assets/img/layout/mu_coupon_icon.svg" alt="쿠폰"></a>
-                        <a href=""><img src="assets/img/layout/mu_mypage_icon.svg" alt="마이페이지"></a>
-                        <a href=""><img src="assets/img/layout/mu_basket_icon.svg" alt="장바구니"></a>
+                        <a href=""><img src="/assets/img/layout/mu_coupon_icon.svg" alt="쿠폰"></a>
+                        <a href=""><img src="/assets/img/layout/mu_mypage_icon.svg" alt="마이페이지"></a>
+                        <a href=""><img src="/assets/img/layout/mu_basket_icon.svg" alt="장바구니"></a>
                     </div> <!-- //top_link -->
                 </div> <!-- //inner -->
                 <!-- navigation -->
@@ -64,6 +64,7 @@ document.addEventListener("DOMContentLoaded", () => {
                                     <li><a href="">도드람한돈</a></li>
                                     <li><a href="">THE짙은</a></li>
                                     <li><a href="">캔돈</a></li>
+                                    <li><a href="/about.html">회사 소개</a></li>
                                 </ul>
                             </div>
                         </li>
@@ -79,7 +80,7 @@ document.addEventListener("DOMContentLoaded", () => {
             <div id="footer">
                 <div class="inner">
                     <div class="inner_info">
-                        <a href="index.html"><img src="assets/img/layout/0c3d6c35bd0388d73a8ca987211f0061_35031.svg" alt="하단 로고"></a>
+                        <a href="index.html"><img src="/assets/img/layout/0c3d6c35bd0388d73a8ca987211f0061_35031.svg" alt="하단 로고"></a>
                         <div class="footer_bottom">
                             <div class="service">
                                 <a href="https://www.dodrammall.com/service/agreement.php">이용약관</a>
@@ -88,7 +89,7 @@ document.addEventListener("DOMContentLoaded", () => {
                                 <a href="https://www.dodrammall.com/service/index.php">고객센터</a>
                             </div> <!-- //service -->
                             <div class="info">
-                                <p>주소:경기도 이천시 부발읍 경충대로 1917 도드람테마파크 상호:도드람양돈협동조합<br>조합장:박광욱 사업자등록번호: 126-82-10806<a
+                                <p>주소:경기도 이천시 부발읍 경충대로 1917 도드람테마파크 상호:도드람양돈협동조합<br>조합장:박광욱 사업자등록번호: 126-82-10806 <a
                                         href="mailto:mall@dodram.co.kr">전자우편:mall@dodram.co.kr</a><br> 개인정보보호책임자:홍은숙<a
                                         herf="tel:1551-3349">대표번호:1551-3349</a> 팩스:031-636-0763<br>통신판매업
                                     신고번호:2018-경기이천-0257호<br><br> copyright©dodrammall.com All Right Reserved. Hosting by
