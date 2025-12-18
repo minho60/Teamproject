@@ -60,6 +60,7 @@
     text-align: center;
     justify-content: center;
     margin-bottom: 30px;
+    font-weight: bold;
 }
 
 .minho-wrapper .title img {
@@ -178,7 +179,8 @@
 }
 .minho-wrapper .reco-left li:hover{
      transform: scale(1.1);
-     color:#fff;
+     cursor: pointer;
+     color: #fff;
      font-size: 18px;
      font-weight: bold;
 }
@@ -255,6 +257,7 @@
 .minho-wrapper .gift .title {
     justify-content: start;
     padding: 0;
+    font-weight: bold;
 
 }
 
@@ -273,7 +276,9 @@
     height: 36px;
 }
 .minho-wrapper .gift li:hover{
-    border: 2px solid #E83828;
+    border: 1px solid #E83828;
+    cursor: pointer
+    
 }
 
 .minho-wrapper .gift-ico {
@@ -310,6 +315,7 @@
 .minho-wrapper .news {
     position: relative;
     background: #FFF3F1;
+    padding: 30px 10px;
 
 }
 
@@ -321,11 +327,23 @@
 
 .minho-wrapper .news .title {
     padding: 0;
+    font-weight: bold;
 }
 
 .minho-wrapper .news-btn-wrap {
     display: flex;
+    gap: 20px;
 }
+.minho-wrapper .news-btn-wrap img{
+    width: 70px;
+    height: 70px;
+}
+.minho-wrapper .news-btn-wrap a:hover img {
+    border: 1px solid #E83828;
+    border-radius: 50%;
+    transform: scale(1.05);
+}
+
 
 .minho-wrapper .news h3 {
     display: flex;
