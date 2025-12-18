@@ -185,6 +185,10 @@ li {
 
 
 /* 페이지네이션 */
+#minho-faq .faq-pagination{
+    display: flex;
+    justify-content: center;
+}
 #minho-faq .faq-pagination ul {
     display: flex;
 }
