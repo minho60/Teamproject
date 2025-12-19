@@ -1,0 +1,39 @@
+#faq-list {
+    position: relative;
+    width: 1260px;
+    height: 1000px;
+    margin: 0 323px;
+    background: yellow;
+
+}
+
+#faq-list .faq-list-t {
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 30px;;
+}
+
+#faq-list .faq-list-box {
+    width: 400px;
+    height: 350px;
+    border: 1px solid red;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+#faq-list .event-link {
+    /* position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translateX(-50%); */
+    
+    margin:20px 10px;
+    text-align: center;
+    width: 1240px;
+    height: 200px;
+    border: 1px solid red;
+}
