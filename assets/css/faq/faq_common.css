@@ -1,58 +1,118 @@
+@charset "UTF-8";
+
 /* reset */
 body,
-p,h3, h2, h1 {
-    margin: 0;
+p,
+h3,
+h2,
+h1 {
+  margin: 0;
 }
 
 a {
-    text-decoration: none;
-    color: #000;
+  text-decoration: none;
+  color: #000;
 }
 
 ul,
 li {
-    padding: 0;
-    margin: 0;
-    list-style: none;
+  padding: 0;
+  margin: 0;
+  list-style: none;
 }
+
+#minho-faq .location-wrap {
+  margin-bottom: 40px;
+  border-bottom: 1px solid #e83828;
+}
+
+#minho-faq .location-con {
+  width: 1260px;
+  margin: 0 323px;
+  padding: 20px 0;
+  color: #787878;
+}
+#minho-faq .location-con a {
+  color: #787878;
+}
+
+#minho-faq .faq-container {
+  display: flex;
+  width: 1260px;
+  margin: 0 323px;
+  gap: 50px;
+}
+
 /* faq list-box */
 
-
 #minho-faq .list-box-t {
-    margin-bottom: 200px;
+  margin-bottom: 150px;
 }
 
 #minho-faq .list-box-menu {
-    border-top: 2px solid #e83828;
-    padding: 20px 10px 20px 0;
+  border-top: 2px solid #e83828;
+  padding: 20px 10px 20px 0;
 }
 
 #minho-faq .list-box-menu li {
-    margin-top: 15px;
+  margin-top: 15px;
+  font-size: 14px;
 }
 
 #minho-faq .list-box-menu li a {
-    color: #787878;
+  color: #787878;
 }
 
 #minho-faq .list-box-menu li a:hover {
-    color: #e83828;
+  color: #e83828;
 }
 
-
 #minho-faq .list-box-b div {
-    margin-bottom: 100px;
-    gap: 5px;
+  margin-bottom: 50px;
+  gap: 5px;
 }
 
 #minho-faq .list-box-info {
-    display: flex;
-    flex-direction: column;
-    padding-top: 20px;
-    border-top: 2px solid #e83828;
-    color: #787878;
+  display: flex;
+  flex-direction: column;
+  padding-top: 20px;
+  border-top: 2px solid #e83828;
+  color: #787878;
+  font-size: 12px;
 }
 
 #minho-faq .list-box-b strong {
-    color: #e83828
+  color: #e83828;
+  font-size: 15px;
+}
+
+/* 수정 가능한 부분*/
+
+
+/* 페이지네이션 */
+#minho-faq .faq-pagination {
+  display: flex;
+  justify-content: center;
+}
+#minho-faq .faq-pagination ul {
+  display: flex;
+  gap: 20px;
+}
+#minho-faq .faq-pagination ul li {
+  padding: 10px;
+}
+#minho-faq .faq-pagination li a {
+  display: flex;  
+  align-items: center;
+  justify-content: center;
+  width: 30px;
+  height: 30px;
+  color: #787878;
+  font-size: 14px;
+}
+
+#minho-faq .faq-pagination li.faq-active a {
+  background: #7a7d81;
+  color: #fff;
+  border-radius: 50%;
 }
