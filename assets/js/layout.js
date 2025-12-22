@@ -13,7 +13,7 @@ document.addEventListener("DOMContentLoaded", () => {
                         <a href="#">고객센터</a>
                         <a href=""><img src="/assets/img/layout/mu_coupon_icon.svg" alt="쿠폰"></a>
                         <a href=""><img src="/assets/img/layout/mu_mypage_icon.svg" alt="마이페이지"></a>
-                        <a href=""><img src="/assets/img/layout/mu_basket_icon.svg" alt="장바구니"></a>
+                        <a href="/orders/cart.html"><img src="/assets/img/layout/mu_basket_icon.svg" alt="장바구니"></a>
                     </div> <!-- //top_link -->
                 </div> <!-- //inner -->
                 <!-- navigation -->
@@ -24,8 +24,8 @@ document.addEventListener("DOMContentLoaded", () => {
                         <li><a href="">베스트</a></li>
                     </ul>
                     <ul class="main">
-                        <li><a href="">신선정육</a>
-                            <div class="sub-wrapper">
+                        <li><a href="/product/product_list.html">신선정육</a>
+                            <!--<div class="sub-wrapper">
                                 <ul class="sub">
                                     <li><a href="">한우</a></li>
                                     <li><a href="">한돈</a></li>
@@ -36,7 +36,7 @@ document.addEventListener("DOMContentLoaded", () => {
                                     <li><a href="">앞다리/뒷다리</a></li>
                                     <li><a href="">특수부위/기타</a></li>
                                 </ul>
-                            </div>
+                            </div>-->
                         </li>
                         <li><a href="">간편식</a>
                             <div class="sub-wrapper">
@@ -64,7 +64,7 @@ document.addEventListener("DOMContentLoaded", () => {
                                     <li><a href="">도드람한돈</a></li>
                                     <li><a href="">THE짙은</a></li>
                                     <li><a href="">캔돈</a></li>
-                                    <li><a href="/about.html">회사 소개</a></li>
+                                    <li><a href="/about.html">Dodrammall</a></li>
                                 </ul>
                             </div>
                         </li>
@@ -91,7 +91,7 @@ document.addEventListener("DOMContentLoaded", () => {
                             <div class="info">
                                 <p>주소:경기도 이천시 부발읍 경충대로 1917 도드람테마파크 상호:도드람양돈협동조합<br>조합장:박광욱 사업자등록번호: 126-82-10806 <a
                                         href="mailto:mall@dodram.co.kr">전자우편:mall@dodram.co.kr</a><br> 개인정보보호책임자:홍은숙<a
-                                        herf="tel:1551-3349">대표번호:1551-3349</a> 팩스:031-636-0763<br>통신판매업
+                                        herf="tel:1551-3349"> 대표번호:1551-3349</a> 팩스:031-636-0763<br>통신판매업
                                     신고번호:2018-경기이천-0257호<br><br> copyright©dodrammall.com All Right Reserved. Hosting by
                                     NHN고도(주)
                             </div> <!-- //info -->
@@ -100,8 +100,8 @@ document.addEventListener("DOMContentLoaded", () => {
                     <div class="inner_box">
                         <div class="call_box">
                             <div class="call_center">
-                                <h2>CALL CENTER</h3>
-                                    <h2>1551-3349</h2>
+                                <h2>CALL CENTER</h2>
+                                <h2>1551-3349</h2>
                             </div>
                             <ul class="bank_time">
                                 <li>평일 AM 09:00 ~ PM 06:00 </li>
@@ -123,6 +123,52 @@ document.addEventListener("DOMContentLoaded", () => {
             </div> <!-- //#footer -->
         </footer> <!-- footer -->
     `;
+
   document.body.insertAdjacentHTML("afterbegin", headerHTML);
   document.body.insertAdjacentHTML("beforeend", footerHTML);
+});
+
+document.addEventListener("DOMContentLoaded", () => {
+  const sideMenuHTML = /*HTML*/ `<!-- side-menu -->
+        <div id="layout-side-menu">
+            <div class="btn-toggle">
+                <img src="/assets/img/main/scl_bt.gif" alt="우측 클릭 버튼">
+            </div>
+            <div class="menu-list">
+                <a href="/notice/notice_list.html" class="icon-box">
+                    <img src="/assets/img/main/scl_icon01.png">
+                    <span>공지사항</span>
+                </a>
+                <a class="icon-box">
+                    <img src="/assets/img/main/scl_icon02.png">
+                    <span>고객센터</span>
+                </a>
+                <a class="icon-box">
+                    <img src="/assets/img/main/scl_icon03.png">
+                    <span>배송조회</span>
+                </a>
+                <a class="icon-box">
+                    <img src="/assets/img/main/scl_icon04.png">
+                    <span>마이쇼핑</span>
+                </a>
+                <a class="icon-box">
+                    <img src="/assets/img/main/scl_icon05.png">
+                    <span>장바구니</span>
+                </a>
+                <!-- <a class="icon-box">
+                    <img src="https://dodrammall.com/data/skin/front/mo_designart/img/da_image/scl_icon_cou.png">
+                    <span>상품권/쿠폰등록하기</span>
+                </a> -->
+            </div>
+        </div>
+    `;
+
+  document.body.insertAdjacentHTML("beforeend", sideMenuHTML);
+
+  const sideMenu = document.querySelector("#layout-side-menu");
+  const btnToggle = sideMenu.querySelector(".btn-toggle");
+
+  btnToggle.addEventListener("click", () => {
+    sideMenu.classList.toggle("open");
+  });
 });

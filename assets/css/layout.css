@@ -7,6 +7,25 @@ html, body {
     font-size: 16px;
 }
 
+body {
+    margin: 0;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+ul, li {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
 .skeleton {
     position: relative;
     overflow: hidden;
@@ -21,12 +40,7 @@ html, body {
     left: -100%;
     width: 100%;
     height: 100%;
-    background: linear-gradient(
-        90deg,
-        transparent,
-        rgba(255, 255, 255, 0.6),
-        transparent
-    );
+    background: linear-gradient(90deg, #0000, #00000008, #0000);
     animation: shimmer 1.5s infinite;
 }
 
@@ -75,8 +89,11 @@ html, body {
 
 /* header */
 #header {
+    
     position: relative;
+    margin-bottom: 20px;
 }
+
 #header .inner {
     max-width: 1520px;
     margin: 0 auto;
@@ -84,9 +101,8 @@ html, body {
     justify-content: space-between;
     padding-top: 40px;
     margin-bottom: 20px;
-    /* background: #555; */
 }
-#logo {
+logo {
     position: absolute;
 }
 #header .top_link {
@@ -101,9 +117,8 @@ html, body {
 /* 메인 메뉴바 */
 #gnb {
     display: flex;
-    /* background: lightblue; */
     position: relative;
-    max-width: 1320px;
+    max-width: 1520px;
     margin: 0 auto;
     align-items: center;
     justify-content: space-between;
@@ -256,11 +271,12 @@ html, body {
 
 /* footer */
 #footer {
-    /* margin-top: 800px; */
     background: #fff;
     position: relative;
     padding: 32px 0;
     color: #787878;
+    margin-top: 20px;
+    text-align: left;
 }
 #footer a {
     color: #787878;
@@ -276,7 +292,6 @@ html, body {
     align-items: flex-end;
     /* padding: 16px; */
     /* background: #555; */
-    text-align: left;
 }
 #footer .footer_bottom {
     margin-top: 70px;
@@ -291,31 +306,44 @@ html, body {
     padding-left: 16px;
 }
 #footer .info {
-    font-size: 0.875rem;
+    margin-top: 8px;
+    font-size: 0.8rem;
 }
 #footer .call_box, .bank_box {
     background: #E83828;
     border-radius: 25px;
-    width: 400px;
+    width: 450px;
     padding: 10px 20px;
-    margin: 10px 0;
     color: #fff;
 }
 #footer .bank_time {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    gap: 0 80px;
+    gap: 0 94px;
+    margin: 0 16px;
 }
-
 #footer .call_box {
-    height: 105px;
+    height: 130px;
 }
 #footer .call_box li {
     text-align: left;
 }
+#footer .call_center {
+    margin-top: 18px;
+}
+#footer .call_center h2 {
+    margin: 0 16px;
+}
 #footer .bank_box {
+    margin: 15px 0 5px 0;
+    height: 90px;
     border-radius: 20px;
-    height: 70px;
+}
+#footer .bank_info h3 {
+    margin: 10px 16px 0 16px;
+}
+#footer .bank_name {
+    margin-right: 16px;
 }
 #footer .call_center, .bank_info {
     display: flex;
@@ -326,4 +354,40 @@ html, body {
 }
 #footer img {
     width: 220px;
+}
+
+/* 사이드 메뉴 */
+#layout-side-menu {
+    position: fixed;
+    top: 500px;
+    right: 0;
+    transition: transform 0.3s ease;
+    z-index: 1000;
+}
+
+#layout-side-menu:not(.open) {
+    transform: translateX(100%);
+}
+
+#layout-side-menu .btn-toggle {
+    position: absolute;
+    left: -30px;
+}
+
+#layout-side-menu .menu-list {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    padding: 20px 20px;
+    background-color: #fff;
+    border: 2px dotted red;
+    border-right: none;
+}
+
+#layout-side-menu .menu-list .icon-box {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    text-decoration: none;
+    color: #000;
 }
