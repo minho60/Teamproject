@@ -54,66 +54,99 @@
           </div>
         </div> <!-- //.list-box -->
 
-        <div class="sub2-board">
-            <div class="sub2-tit"><h2>1:1문의</h2></div>
-        </div>
-        <div class="sub2-main-box">
-            <div class="main-box-table">
-                <table>
-                    <tbody>
-                        <tr>
-                            <th>말머리</th>
-                            <td><select name="" id=""></select></td>
-                        </tr>
-                        <tr>
-                            <th>작성자</th>
-                            <td></td>
-                        </tr>
-                        <tr>
-                            <th>비밀번호</th>
-                            <td></td>
-                        </tr>
-                        <tr>
-                            <th>이메일</th>
-                            <td></td>
-                        </tr>
-                        <tr>
-                            <th>제목</th>
-                            <td></td>
-                        </tr>
-                        <tr>
-                            <th>본문</th>
-                            <td></td>
-                        </tr>
-                        <tr>
-                            <th>첨부피일</th>
-                            <td></td>
-                        </tr>
-                        <tr>
-                            <th>자동등록방지</th>
-                            <td></td>
-                        </tr>
-                    </tbody>
-                </table>
-            </div>
-            <div class="main-box-write">
-                <div>
-                    <h5>비회원 개인정보 수집동의</h5>
-                    <textarea name="" id="">
-- 수집항목: 이름, 전화번호, 이메일주소
-- 수집/이용목적: 게시글 접수 및 결과 회신
-- 이용기간: 원칙적으로 개인정보 수집 및 이용목적이 달성된 후에는 해당 정보를 지체 없이 파기합니다. 
-               단, 관계법령의 규정에 의하여 보전할 필요가 있는 경우 일정기간 동안 개인정보를 보관할 수 있습니다.
-그 밖의 사항은 도드람양돈협동조합의 개인정보취급방침을 준수합니다.</textarea>
-                    <div class="sub2-check-box"></div>
-                    <div class="sub2-btn">
-                        <button>이전</button>
-                        <button>저장</button>
-                    </div>
-                </div>
-            </div>
-        </div>
-    
+        <div id="faq-sub2">
+          <div class="sub2-tit"><h2>1:1문의</h2></div>
+          <div class="sub2-main-box">
+              <div class="main-box-table">
+                  <table>
+                      <tbody>
+                          <tr>
+                              <th>말머리</th>
+                              <td>
+                              <select name="category" id="category">
+                               <option value="category">문의내용</option>
+                               <option value="category">회원/정보관리</option>
+                               <option value="category">주문/결제</option>
+                               <option value="category">배송</option>
+                               <option value="category">반품/환불/교환/AS</option>
+                               <option value="category">영수증/증빙서류</option>
+                               <option value="category">상품/이벤트</option>
+                               <option value="category">기타</option>
+                              </select>
+                            </td>
+                          </tr>
+                          <tr>
+                              <th>작성자</th>
+                              <td><input type="text"></td>
+                          </tr>
+                          <tr>
+                              <th>비밀번호</th>
+                              <td><input type="text"></td>
+                          </tr>
+                          <tr>
+                              <th>이메일</th>
+                              <td>
+                                <div class="table-email">
+                                  <input type="text">
+                                  <select name="email" id="email">
+                                    <option value="email">직접입력</option>
+                                    <option value="email">naver.com</option>
+                                    <option value="email">hanmail.net</option>
+                                    <option value="email">daum.net</option>
+                                    <option value="email">nate.com</option>
+                                    <option value="email">hotmail.com</option>
+                                    <option value="email">gmail.com</option>
+                                    <option value="email">icloud.com</option>
+                                  </select>
+                                </div>
+                              </td>
+                          </tr>
+                          <tr>
+                              <th>제목</th>
+                              <td><input type="text"></td>
+                          </tr>
+                          <tr>
+                              <th>본문</th>
+                              <td><div class="table-body"><p>해당글은 비밀글로만 작성됩니다.</p><textarea name="" id=""></textarea></div></td>
+                          </tr>
+                          <tr>
+                              <th>첨부파일</th>
+                              <td><input type="text"><button>찾아보기</button><button>추가</button></td>
+                          </tr>
+                          <tr>
+                              <th>자동등록방지</th>
+                              <td>
+                                <div>
+                                  <img src="" alt="">
+                                  <div>
+                                    <p>보이는 순서대로 숫자및 문자를 모두 입력해주세요</p>
+                                    <input type="text">
+                                    <button>이미지 새로고침</button>
+                                  </div>
+                                </div>
+                              </td>
+                          </tr>
+                      </tbody>
+                  </table>
+              </div>
+              <div class="main-box-write">
+                  <div>
+                      <h5>비회원 개인정보 수집동의</h5>
+                      <textarea name="" id="">
+          - 수집항목: 이름, 전화번호, 이메일주소
+          - 수집/이용목적: 게시글 접수 및 결과 회신
+          - 이용기간: 원칙적으로 개인정보 수집 및 이용목적이 달성된 후에는 해당 정보를 지체 없이 파기합니다.
+                 단, 관계법령의 규정에 의하여 보전할 필요가 있는 경우 일정기간 동안 개인정보를 보관할 수 있습니다.
+          그 밖의 사항은 도드람양돈협동조합의 개인정보취급방침을 준수합니다.</textarea>
+                      <div class="sub2-check-box"><input type="text"><label for=""></label><a href="">전체보기</a></div>
+                      <div class="sub2-btn">
+                          <button>이전</button>
+                          <button>저장</button>
+                      </div>
+                  </div>
+              </div><!-- //main-box-write -->
+          </div><!-- //sub2-main-box -->
+        </div><!-- //# faq-sub2 -->
 
       </div> <!--//.faq-container  -->
     </div> <!-- //#minho-faq -->
