@@ -21,58 +21,57 @@ li {
   list-style: none;
 }
 
-#minho-faq .location-wrap {
+ .location-wrap {
   margin-bottom: 40px;
   border-bottom: 1px solid #e83828;
 }
-
-#minho-faq .location-con {
+ .location-con {
   width: 1260px;
   margin: 0 323px;
   padding: 20px 0;
   color: #787878;
 }
-#minho-faq .location-con a {
+ .location-con a {
   color: #787878;
 }
 
-#minho-faq .faq-container {
+ .service-container {
   display: flex;
   width: 1260px;
   margin: 0 323px;
   gap: 50px;
 }
 
-/* faq list-box */
+/* side-box */
 
-#minho-faq .list-box-t {
+.side-box-t {
   margin-bottom: 150px;
 }
 
-#minho-faq .list-box-menu {
+.side-box-menu {
   border-top: 2px solid #e83828;
   padding: 20px 10px 20px 0;
 }
 
-#minho-faq .list-box-menu li {
+.side-box-menu li {
   margin-top: 15px;
   font-size: 14px;
 }
 
-#minho-faq .list-box-menu li a {
+.side-box-menu li a {
   color: #787878;
 }
 
-#minho-faq .list-box-menu li a:hover {
+.side-box-menu li a:hover {
   color: #e83828;
 }
 
-#minho-faq .list-box-b div {
+.side-box-b div {
   margin-bottom: 50px;
   gap: 5px;
 }
 
-#minho-faq .list-box-info {
+.side-info {
   display: flex;
   flex-direction: column;
   padding-top: 20px;
@@ -81,7 +80,7 @@ li {
   font-size: 12px;
 }
 
-#minho-faq .list-box-b strong {
+.side-box-b strong {
   color: #e83828;
   font-size: 15px;
 }
@@ -90,18 +89,18 @@ li {
 
 
 /* 페이지네이션 */
-#minho-faq .faq-pagination {
+.service-pagination {
   display: flex;
   justify-content: center;
 }
-#minho-faq .faq-pagination ul {
+.service-pagination ul {
   display: flex;
   gap: 20px;
 }
-#minho-faq .faq-pagination ul li {
+.service-pagination ul li {
   padding: 10px;
 }
-#minho-faq .faq-pagination li a {
+ .service-pagination li a {
   display: flex;  
   align-items: center;
   justify-content: center;
@@ -110,8 +109,7 @@ li {
   color: #787878;
   font-size: 14px;
 }
-
-#minho-faq .faq-pagination li.faq-active a {
+.service-pagination li.service-active a {
   background: #7a7d81;
   color: #fff;
   border-radius: 50%;

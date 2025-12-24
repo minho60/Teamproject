@@ -1,4 +1,4 @@
-#faq-list {
+#service {
     position: relative;
     width: 1260px;
     height: 1000px;
@@ -9,13 +9,13 @@
 
 }
 
-#faq-list .faq-list-t {
+#service .service-t {
     display: flex;
     justify-content: space-evenly;
     padding-top: 60px;
 }
 
-#faq-list .faq-list-t a {
+#service .service-t a {
     border-radius: 10px;
     transition:
         transform 0.25s ease,
@@ -24,7 +24,7 @@
 }
 
 
-#faq-list .faq-list-t a:nth-child(1) {
+#service .service-t a:nth-child(1) {
     background: #E83828;
     color: #FFFFFF;
     position: relative;
@@ -34,7 +34,7 @@
     background-position: 10% 40%;
 }
 
-#faq-list .faq-list-t a:nth-child(2) {
+#service .service-t a:nth-child(2) {
     background: #FFCF4B;
     color: #000;
     position: relative;
@@ -44,24 +44,24 @@
     background-position: 10% 40%;
 }
 
-#faq-list .faq-list-t a:nth-child(3) {
+#service .service-t a:nth-child(3) {
     background: #CCDEFF;
     color: #030B39;
     position: relative;
-    background-image: url("/assets/img/faq/faq-list.png");
+    background-image: url("/assets/img/service/faq-list.png");
     background-repeat: no-repeat;
     background-size: 110px auto;
     background-position: 10% 40%;
 }
 
 
-#faq-list .faq-list-t a:hover {
+#service .service-t a:hover {
     transform: translateY(-10px);
     box-shadow: 0 12px 24px rgba(0, 0, 0, 0.18);
     filter: brightness(1.04);
 }
 
-#faq-list .faq-list-box {
+#service .service-box {
     width: 400px;
     height: 350px;
     display: flex;
@@ -71,7 +71,7 @@
 }
 
 /* 이벤트 */
-#faq-list .event-link {
+#service .event-link {
     display: flex;
     flex-direction: column;
     margin: 60px 10px;
@@ -82,7 +82,7 @@
     justify-content: center;
     background: #FEEADF;
     position: relative;
-    background-image: url("/assets/img/faq/faq-list2.svg");
+    background-image: url("/assets/img/service/faq-list2.svg");
     background-repeat: no-repeat;
     background-size: 110px auto;
     background-position: 30% 40%;
@@ -92,20 +92,20 @@
         filter 0.25s ease;
 }
 
-#faq-list .event-link:hover {
+#service .event-link:hover {
     transform: translateY(-10px);
     box-shadow: 0 12px 24px rgba(0, 0, 0, 0.18);
     filter: brightness(1.02);
 }
 
-#faq-list .list-box-b {
+#service .side-box-b {
     display: flex;
     gap: 30px;
     justify-content: space-evenly;
 }
 
 
-#faq-list .list-box-info {
+#service .side-info {
     display: flex;
     flex-direction: column;
     padding-top: 20px;
@@ -114,7 +114,7 @@
     font-size: 16px;
 }
 
-#faq-list .list-box-b strong {
+#service .side-box-b strong {
     color: #e83828;
     font-size: 16px;
 }
