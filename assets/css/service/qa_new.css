@@ -77,16 +77,24 @@ td {
     resize: none;
 }
 /* 첨부파일 */
+
 #qa-main .upload-box{
     display: flex;
     gap: 5px;
+    margin-bottom: 5px;
 }
+#qa-main .upload-box .file-btn{
+    background:#979797;
+    color:#fff;
+    border: 1px solid #787878;
+}
+
 
 /* 자동등록 방지 */
 
 #qa-main .qa-cha{
     display: flex;
-    padding: 20px;
+    padding: 20px 20px 20px 0;
     gap: 20px;
 }
 #qa-main .qa-cha img{

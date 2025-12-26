@@ -27,8 +27,8 @@
             <div class="side-box-menu">
               <ul>
                 <li><a href="#">공지사항</a></li>
-                <li><a href="#">1:1문의</a></li>
-                <li><a href="#">FAQ</a></li>
+                <li><a href="/service/qa/qa_new.html">1:1문의</a></li>
+                <li><a href="/service/faq/faq_list.html">FAQ</a></li>
               </ul>
             </div>
           </div>
@@ -79,11 +79,17 @@
                   </tr>
                   <tr>
                     <th>작성자</th>
-                    <td><input type="text"></td>
+                    <td><input type="text" id="username" name="username" required minlength="4" maxlength="20"></td>
                   </tr>
                   <tr>
                     <th>비밀번호</th>
-                    <td><input type="text"></td>
+                    <td>
+                      <div class="form-group">
+                        <label for="password"></label>
+                        <input type="password" id="password" name="password" required minlength="8"
+                          autocomplete="new-password">
+                      </div>
+                    </td>
                   </tr>
                   <tr>
                     <th>이메일</th>
@@ -120,10 +126,10 @@
                     <td id="qa-upload">
                       <div class="upload-box">
                         <input type="text" class="file-input">
-                        <button type="button" class="file-btn" id="fileBtn">
+                        <button type="button" class="file-btn">
                           파일 선택
                         </button>
-                        <button type="button" id="add-btn">
+                        <button type="button" class="add-btn">
                           +추가
                         </button>
                       </div>
@@ -154,7 +160,8 @@
  - 이용기간: 원칙적으로 개인정보 수집 및 이용목적이 달성된 후에는 해당 정보를 지체 없이 파기합니다.
           단, 관계법령의 규정에 의하여 보전할 필요가 있는 경우 일정기간 동안 개인정보를 보관할 수 있습니다.
 그 밖의 사항은 도드람양돈협동조합의 개인정보취급방침을 준수합니다.</textarea>
-                <div class="qa-check-box"><input type="checkbox"><label for="">비회원 글작성에 대한 개인정보 수집 및 이용동의 </label><a href="#">전체보기></a></div>
+                <div class="qa-check-box"><input type="checkbox"><label for="">비회원 글작성에 대한 개인정보 수집 및 이용동의 </label><a
+                    href="/service/qa/qa_private.html">전체보기></a></div>
                 <div class="qa-btn">
                   <button>이전</button>
                   <button>저장</button>

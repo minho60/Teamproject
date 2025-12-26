@@ -1,0 +1,65 @@
+@charset "UTF-8";
+@import url(/assets/css/service/service_common.css);
+
+/* qa-search */
+/* tit */
+#qa-board {
+    width: 1020px;
+}
+
+#qa-board .qa-search-tit {
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+    padding-bottom: 20px;
+    background: yellow;
+}
+
+#qa-board .qa-search-tit button {
+    position: absolute;
+    right: 0%;
+    bottom: 0%;
+    padding: 5px;
+    border: 1px solid #787878;
+    font-weight: bold;
+}
+
+#qa-board .qa-search-tit button:hover {
+    background: #777777;
+    color: #fff;
+    font-weight: bold;
+
+}
+
+/* qa-search-box */
+
+#qa-board .qa-search-box {
+    gap: 10px;
+    padding: 20px;
+    display: flex;
+    border: 1px solid #000;
+    align-items: center;
+}
+
+#qa-board .date-box {
+    display: flex;
+}
+
+#qa-board .date-box button {
+  border: 1px solid rgb(214, 214, 214);
+ width: 50px;
+ padding: 5px;
+  cursor: pointer;
+}
+#qa-board .date-box button:hover{
+    background: #999;
+    color: #fff;
+}
+#qa-board .calender{
+    position: relative;
+    background-image: url();
+}
+
+
+
+/* qa-table */

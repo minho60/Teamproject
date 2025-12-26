@@ -39,7 +39,7 @@ li {
   display: flex;
   width: 1260px;
   margin: 0 323px;
-  gap: 50px;
+  gap: 100px;
 }
 
 /* side-box */
@@ -90,8 +90,10 @@ li {
 
 /* 페이지네이션 */
 .service-pagination {
+  width: 1020px;
   display: flex;
   justify-content: center;
+
 }
 .service-pagination ul {
   display: flex;

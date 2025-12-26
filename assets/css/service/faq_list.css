@@ -1,5 +1,5 @@
 @charset "UTF-8";
-
+@import url(/assets/css/service/service_common.css);
 /* reset */
 body,
 p,
@@ -36,12 +36,6 @@ li {
   color: #787878;
 }
 
-#minho-faq .faq-container {
-  display: flex;
-  width: 1260px;
-  margin: 0 323px;
-  gap: 50px;
-}
 
 /* faq list-box */
 
@@ -159,6 +153,11 @@ li {
   display: flex;
   gap: 20px;
 }
+#minho-faq .faq-content-list ul li:hover a{
+  color:#e83828;
+
+}
+
 #minho-faq .faq-content-list ul li:not(:last-child)::after {
   content: "";
   display: inline-block;

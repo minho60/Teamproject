@@ -10,8 +10,8 @@
     box.className = "upload-box";
     box.innerHTML = `
       <input type="text">
-      <button type="button">파일 선택</button>
-      <button type="button" class="remove-btn">-제거</button>
+      <button type="button" class="file-btn" >파일 선택</button>
+      <button type="button" class="remove-btn">- 제거 </button>
     `;
 
     const removeBtn = box.querySelector(".remove-btn");
