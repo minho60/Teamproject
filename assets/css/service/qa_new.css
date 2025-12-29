@@ -149,8 +149,10 @@ td {
     padding: 10px 30px;
     text-align: center;
     background: #E83828;
-    color:#fff;
     border: 1px solid #787878;
     font-weight: bold;
     font-size: 16px;
+}
+#qa-main .qa-btn button a{
+    color:#fff;
 }
