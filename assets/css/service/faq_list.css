@@ -1,26 +1,5 @@
 @charset "UTF-8";
 @import url(/assets/css/service/service_common.css);
-/* reset */
-body,
-p,
-h3,
-h2,
-h1 {
-  margin: 0;
-}
-
-a {
-  text-decoration: none;
-  color: #000;
-}
-
-ul,
-li {
-  padding: 0;
-  margin: 0;
-  list-style: none;
-}
-
 
 /* faq .board-box */
 #minho-faq .search-box {
