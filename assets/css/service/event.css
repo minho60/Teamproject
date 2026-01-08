@@ -12,21 +12,28 @@
     margin-bottom: 60px;
 }
 
-#event .event-tit .event-category {
+#event .event-tit .event-category ul{
     width: 100%;
     display: flex;
     justify-content: center;
-
-
 }
 
-#event .event-tit .event-category a {
+#event .event-tit .event-category ul li {
     font-size: 20px;
     width: 480px;
     padding: 30px 0;
     border: 1px solid #000;
     border-radius: 15px 15px 0 0;
     background: #e2e2e2;
+}
+
+#event .event-tit .event-category ul li:hover{
+    background: pink;
+    cursor: pointer;
+}
+
+#event .event-tit .event-category ul li.active{
+    background: greenyellow;
 }
 
 #event .event-card {
