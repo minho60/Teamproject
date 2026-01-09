@@ -4,7 +4,7 @@
 #event .event-box {
     margin: 0 323px;
     text-align: center;
-    border: 1px solid #000;
+
 }
 
 #event .event-tit h2 {
@@ -36,6 +36,13 @@
     background: greenyellow;
 }
 
+#event .event-cont{
+    background: #ffaecd;
+    border: 1px solid #c9c9c9;
+
+}
+
+/* 이벤트 카드 */
 #event .event-card {
     margin: 30px;
     padding: 15px;
@@ -46,7 +53,7 @@
 }
 
 #event .event-img img {
-    height: 150px;
+    height: 200px;
     width: 500px;
     object-fit: cover;
     border: 1px solid #c2c2c2;
