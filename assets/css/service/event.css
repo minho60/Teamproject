@@ -2,7 +2,6 @@
 @import url(/assets/css/service/service_common.css);
 
 #event .event-box {
-    margin: 0 323px;
     text-align: center;
 
 }
@@ -12,7 +11,7 @@
     margin-bottom: 60px;
 }
 
-#event .event-tit .event-category ul{
+#event .event-tit .event-category ul {
     width: 100%;
     display: flex;
     justify-content: center;
@@ -20,26 +19,26 @@
 
 #event .event-tit .event-category ul li {
     font-size: 20px;
-    width: 480px;
-    padding: 30px 0;
-    border: 1px solid #000;
+    width: 100%;
+    padding: 23px 0;
+    border: 1px solid #bebebe;
     border-radius: 15px 15px 0 0;
-    background: #e2e2e2;
+    background: #F7F7F7;
 }
 
-#event .event-tit .event-category ul li:hover{
-    background: pink;
+#event .event-tit .event-category ul li:hover {
+    background: #E83828;
+    color: #fff;
     cursor: pointer;
 }
 
-#event .event-tit .event-category ul li.active{
-    background: greenyellow;
+#event .event-tit .event-category ul li.active {
+    background: #E83828;
+    color: #fff;
 }
 
-#event .event-cont{
-    background: #ffaecd;
-    border: 1px solid #c9c9c9;
-
+#event .event-cont {
+    margin: 0;
 }
 
 /* 이벤트 카드 */
@@ -48,30 +47,49 @@
     padding: 15px;
     display: flex;
     justify-content: center;
-    gap: 50px;
+    gap: 30px;
 
 }
 
 #event .event-img img {
-    height: 200px;
+    height: 180px;
     width: 500px;
-    object-fit: cover;
+    object-fit: contain;
     border: 1px solid #c2c2c2;
+    background: #F7F7F7;
     border-radius: 6px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.1);
+    transition: 0.2s ease;
+}
+
+#event .event-img img:hover {
+    transform: scale(1.05);
+    box-shadow: 15px 15px 10px rgba(0, 0, 0, 0.1);
 }
 
 
 #event .event-info {
-    text-align-last: left;
+    font-size: 15px;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    justify-content: center;
 }
 
+#event .event-info .event-tit:hover{
+    text-decoration: underline;
+}
+
+#event .event-info .event-tit strong img {
+    margin-left: 10px;
+}
 
 
 
 
 /* 페이지네이션 */
 
-#event .service-pagination{
+#event .service-pagination {
     width: 100%;
 
 }
