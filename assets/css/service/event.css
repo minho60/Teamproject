@@ -18,22 +18,22 @@
     justify-content: center;
 }
 
-#event .event-tit .event-category ul li {
+#event .event-tit .event-category .tab-btn{
     font-size: 20px;
-    width: 100%;
+    width: 340px;
     padding: 23px 0;
     border: 1px solid #bebebe;
     border-radius: 15px 15px 0 0;
     background: #F7F7F7;
 }
 
-#event .event-tit .event-category ul li:hover {
+#event .event-tit .event-category .tab-btn:hover {
     background: #E83828;
     color: #fff;
     cursor: pointer;
 }
 
-#event .event-tit .event-category ul li.active {
+#event .event-tit .event-category .tab-btn.active {
     background: #E83828;
     color: #fff;
 }
