@@ -38,10 +38,10 @@
     color: #fff;
 }
 
-#event .event-cont {
-    margin: 0;
-}
 
+#event .event-cont ul li{
+     margin: 50px 0;
+}
 /* 이벤트 카드 */
 #event .event-card {
     margin: 30px;

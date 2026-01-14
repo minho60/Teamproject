@@ -1,6 +1,6 @@
 const eventData = [
     {   
-        tab: "ongoing",
+        tab: "ended",
         title: "선물하셨나요? 도드람몰이 선물드립니다!",
         image:"/assets/img/service/event/banner.jpg",
         alt:"선물",
