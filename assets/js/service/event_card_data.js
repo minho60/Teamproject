@@ -28,7 +28,7 @@ const eventData = [
         title: "도드람 복날 보양식 할인 이벤트",
         image:"/assets/img/service/event/ed5d89e0ff60b039b5b063446086685a.jpg",
         alt:"복날",
-        link:"#",
+        link:"event_in_4.html",
         date:"2025.07.17 00:00 ~ 2025.07.30 00:00"
     },
     {
@@ -36,7 +36,7 @@ const eventData = [
         title: "🔥 도드람 캠핑마켓 OPEN 🔥",
         image:"/assets/img/service/event/aa59fefbe152eb9c87f2547a0e86a6db.jpg",
         alt:"캠핑마켓",
-        link:"#",
+        link:"event_in_5.html",
         date:" 2025.07.01 00:00 ~ 2025.07.09 00:00"
     },
     {
@@ -44,7 +44,7 @@ const eventData = [
         title: "🐽 삼겹살데이 할인행사 🐽",
         image:"/assets/img/service/event/1758c8a5caff67f92701095f0160158b.png",
         alt:"삼겹살데이",
-        link:"#",
+        link:"event_in_6.html",
         date:"2025.02.24 00:00 ~ 2025.03.09 00:00"
     },
     {
@@ -52,7 +52,7 @@ const eventData = [
         title: "💗도드람 창립34주년 기념 할인행사💗",
         image:"/assets/img/service/event/a4a0f38abfabae8c951.png",
         alt:"창립34주년",
-        link:"#",
+        link:"event_in_7.html",
         date:"2024.10.07 00:00 ~ 2024.10.20 00:00"
     },
     {
