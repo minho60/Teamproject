@@ -60,7 +60,7 @@ const eventData = [
         title: "🌴GO SURFYY FIND DODRAM🌴",
         image:"/assets/img/service/event/64bb8f4db07f8c14a0be547dfccd8557.jpg",
         alt:"피서",
-        link:"event_in_1.html",
+        link:"event_in_8.html",
         date:" 2024.06.21 00:00 ~ 2024.06.30 23:59"
     },
     {
@@ -68,7 +68,7 @@ const eventData = [
         title: "도드람 캔돈 어택!",
         image:"/assets/img/service/event/e29263183bc61354ed41ecbc83a91c37_172511.jpg",
         alt:"캔돈",
-        link:"#",
+        link:"event_in_9.html",
         date:"2024.06.11 00:00 ~ 2024.06.16 23:59"
     },
     {
@@ -76,7 +76,7 @@ const eventData = [
         title: "[EVENT] 도드람 유튜브 빅꿀잼 퀴즈 이벤트",
         image:"/assets/img/service/event/e5fc2567e9ae2b26b9c4d24a78edafad.jpg",
         alt:"유튜브퀴즈",
-        link:"#",
+        link:"event_in_10.html",
         date:"2024.05.10 00:00 ~ 2024.05.15 23:59"
     },
     {
@@ -84,7 +84,7 @@ const eventData = [
         title: "가정의 달 선물네컷 추천!",
         image:"/assets/img/service/event/65aefc273ade8cc4b610c67311200ae8.jpg",
         alt:"가정의달",
-        link:"#",
+        link:"event_in_11.html",
         date:"2024.05.07 00:00 ~ 2024.05.31 23:59"
     },
     {
@@ -92,7 +92,7 @@ const eventData = [
         title: "SSG랜더스필드의 도드람 스카이박스 가는거 어때요?",
         image:"/assets/img/service/event/7e073f4e2e04730f911552e5a87b4abb_140735.jpg",
         alt:"스카이박스",
-        link:"#",
+        link:"event_in_12.html",
         date:"2024.04.26 00:00 ~ 2024.05.06 00:00"
     },
     {
@@ -100,7 +100,7 @@ const eventData = [
         title: "도드람한돈 벚꽃 에디션 출시",
         image:"/assets/img/service/event/8c04003e48d5a949662.png",
         alt:"벚꽃에디션",
-        link:"#",
+        link:"event_in_13.html",
         date:"2024.03.24 00:00 ~ 2024.04.30 00:00"
     },
     {
@@ -108,7 +108,7 @@ const eventData = [
         title: "肉월에는 고기반찬",
         image:"/assets/img/service/event/4bde6c63dee14c9c.png",
         alt:"고기반찬",
-        link:"#",
+        link:"event_in_14.html",
         date:"2021.06.07 00:00 ~ 2021.06.21 23:59"
     },
     {
@@ -116,7 +116,7 @@ const eventData = [
         title: "특수부위 3종 금주특가",
         image:"/assets/img/service/event/4d02603a5f350f11.png",
         alt:"고기반찬",
-        link:"#",
+        link:"event_in_15.html",
         date:"2021.05.11 00:00 ~ 2021.05.18 23:59"
     },
     {
@@ -124,7 +124,7 @@ const eventData = [
         title: "도드람몰 연말 랭킹쇼! 인기상품 총 결산 할인",
         image:"/assets/img/service/event/9b7736919ed74f22.png",
         alt:"연말랭킹",
-        link:"#",
+        link:"event_in_16.html",
         date:"2020.12.07 00:00 ~ 2020.12.31 00:00"
     }
 
